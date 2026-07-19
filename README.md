@@ -24,4 +24,4 @@ go run .
 
 REPOSITORIO
 
-https://github.com/TU_USUARIO/gestion-libros-electronicos
+https://github.com/angelbenalcazar/gestion_libros_electronicos
