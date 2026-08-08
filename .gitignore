@@ -1,0 +1,25 @@
+# Archivos compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binarios
+bin/
+
+# Archivos de prueba
+*.test
+
+# Cobertura
+*.out
+coverage.out
+
+# Configuración del editor
+.vscode/
+
+# Dependencias descargadas
+vendor/
+
+# Variables de entorno
+.env
