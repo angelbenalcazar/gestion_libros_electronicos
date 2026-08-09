@@ -110,3 +110,24 @@ func (l *Libro) Activar() {
 func (l *Libro) Desactivar() {
 	l.estado = false
 }
+
+func NewLibroDesdeBD(
+	idLibro int,
+	titulo string,
+	descripcion string,
+	isbn string,
+	anioPublicacion int,
+	idioma string,
+	estado bool,
+) *Libro {
+
+	return &Libro{
+		idLibro:         idLibro,
+		titulo:          titulo,
+		descripcion:     descripcion,
+		isbn:            isbn,
+		anioPublicacion: anioPublicacion,
+		idioma:          idioma,
+		estado:          estado,
+	}
+}
